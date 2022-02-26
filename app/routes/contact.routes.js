@@ -25,5 +25,5 @@ module.exports = (app) => {
     // Delete a contact with id
     router.delete("/:id", contacts.delete);
 
-    app.use("/app/contacts", router);
+    app.use("/api/contacts", router);
 };
